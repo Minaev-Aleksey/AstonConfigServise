@@ -6,6 +6,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Minaev-Aleksey/AstonConfigServise  # Укажите свой репозиторий с конфигами
-          search-paths: configs  # Папка с конфигами
-          clone-on-start: true   # Клонировать репозиторий при старте
+          uri: https://github.com/Minaev-Aleksey/AstonConfigServise
+          search-paths: configs
+          clone-on-start: true
