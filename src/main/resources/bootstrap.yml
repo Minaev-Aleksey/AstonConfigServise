@@ -4,6 +4,6 @@ management:
       show-details: always
   health:
     diskspace:
-      enabled: false
+      enabled: true
     config:
-      enabled: false
+      enabled: true
