@@ -2,8 +2,6 @@ server:
   port: 8888
 
 spring:
-  application:
-    name: config-server
   cloud:
     config:
       server:
@@ -11,6 +9,4 @@ spring:
           uri: https://github.com/Minaev-Aleksey/AstonConfigServise
           search-paths: configs
           clone-on-start: true
-          default-label: main
-          skip-ssl-validation: true
-          timeout: 10
+          force-pull: true
